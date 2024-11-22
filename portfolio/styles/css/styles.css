@@ -131,6 +131,12 @@ img {
     background-color: var(--second-color);
     transition: 0.5s;
   }
+  .copyrights{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+  }
 }
 
 .nav_items {
@@ -317,28 +323,25 @@ img {
   z-index: var(--z-back);
 }
 .skill_python{
-  width: 95%;
+  width: 100%;
 }
 .skill_java{
-  width:70%;
+  width:100%;
 }
 .skill_html {
-  width: 85%;
+  width: 100%;
 }
 .skill_sql{
-  width:80%;
+  width:100%;
 }
 .skill_css {
-  width: 85%;
+  width: 100%;
 }
 
 .skill_js {
-  width: 75%;
+  width: 100%;
 }
 
-.skill_ui {
-  width: 85%;
-}
 
 /* WORK */
 
@@ -363,29 +366,6 @@ img {
 
 .work_img img:hover {
   transform: scale(1.1);
-}
-
-/* Contact */
-
-.control_input {
-  width: 100%;
-  font-size: var(--nomral-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-
-.control_button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--nomral-font-size);
-  cursor: pointer;
-  margin-left: auto;
-
 }
 
 /* Footer */
@@ -481,13 +461,13 @@ img {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
-
-  /* .contact_form {
-    width: 400px;
+  .copyrights{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
   }
-  .contact_container {
-    justify-items: center;
-  } */
+
 }
 
 @media screen and (min-width: 1024px) {
